@@ -257,7 +257,7 @@ class TransliterationService {
         ...preferred.where(bengaliOptions.contains),
         ...bengaliOptions.where((o) => !preferred.contains(o)),
       ]
-          : bengaliOptions.toList();
+          : (bengaliOptions.toList()..sort(_compareBengaliVariants));
       _chakmaAmbiguities[chakmaVal] = ordered;
       rev[chakmaVal] = ordered.first; // default = first preferred option
     });
@@ -489,6 +489,39 @@ class TransliterationService {
     for (int i = 0; i < len; i++) {
       if (keys[i].isNotEmpty && values[i].isNotEmpty) map[keys[i]] = values[i];
     }
+  }
+
+  int _compareBengaliVariants(String a, String b) {
+    const sibilants = ['স', 'শ', 'ষ'];
+    const rVariants = ['র', 'ড়', 'ড়', 'ঢ়', 'ঢ়'];
+
+    int getSibilantRank(String s) {
+      for (int i = 0; i < sibilants.length; i++) {
+        if (s.contains(sibilants[i])) return i;
+      }
+      return 99;
+    }
+
+    int getRRank(String s) {
+      for (int i = 0; i < rVariants.length; i++) {
+        if (s.contains(rVariants[i])) {
+          if (i == 0) return 0; // র
+          if (i <= 2) return 1; // ড়
+          return 2; // ঢ়
+        }
+      }
+      return 99;
+    }
+
+    final sA = getSibilantRank(a);
+    final sB = getSibilantRank(b);
+    if (sA != sB) return sA.compareTo(sB);
+
+    final rA = getRRank(a);
+    final rB = getRRank(b);
+    if (rA != rB) return rA.compareTo(rB);
+
+    return 0;
   }
 
   Future<Map<String, dynamic>> _loadJson(String asset) async {
