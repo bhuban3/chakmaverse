@@ -1,0 +1,304 @@
+{
+"consonants":[
+  {
+    "letter": "𑄇",
+    "pronunciation": "চুচ্যাঙ্যা-কা",
+    "meaning": "কা",
+    "example": "𑄇𑄧 (কা)"
+  },
+  {
+    "letter": "𑄈",
+    "pronunciation": "গুজঙ্যা-খা",
+    "meaning": "খা",
+    "example": "𑄈𑄧 (খা)"
+  },
+  {
+    "letter": "𑄉",
+    "pronunciation": "চান্দ্যা-গা",
+    "meaning": "গা",
+    "example": "𑄉𑄧 (গা)"
+  },
+  {
+    "letter": "𑄊",
+    "pronunciation": "তিনঢাল্যা-ঘা",
+    "meaning": "ঘা",
+    "example": "𑄊𑄧 (ঘা)"
+  },
+  {
+    "letter": "𑄋",
+    "pronunciation": "চিলেম'-ঙা",
+    "meaning": "ঙা",
+    "example": "𑄋𑄧 (ঙা)"
+  },
+  {
+    "letter": "𑄌",
+    "pronunciation": "দ্বিঢাল্যা-চা",
+    "meaning": "চা",
+    "example": "𑄌𑄧 (চা)"
+  },
+  {
+    "letter": "𑄍",
+    "pronunciation": "মজরা-ছা",
+    "meaning": "ছা",
+    "example": "𑄍𑄧 (ছা)"
+  },
+  {
+    "letter": "𑄎",
+    "pronunciation": "দ্বিপদলা-জা",
+    "meaning": "জা",
+    "example": "𑄎𑄧 (জা)"
+  },
+  {
+    "letter": "𑄏",
+    "pronunciation": "উড়োউড়ি-ঝা",
+    "meaning": "ঝা",
+    "example": "𑄏𑄧 (ঝা)"
+  },
+  {
+    "letter": "𑄐",
+    "pronunciation": "চিলোচ্যা-ঞা",
+    "meaning": "ঞা",
+    "example": "𑄐𑄧 (ঞা)"
+  },
+  {
+    "letter": "𑄑",
+    "pronunciation": "দ্বিহাদাৎ-টা",
+    "meaning": "টা",
+    "example": "𑄑𑄧 (টা)"
+  },
+  {
+    "letter": "𑄒",
+    "pronunciation": "ফুদোদ্বিহাদাৎ-ঠা",
+    "meaning": "ঠা",
+    "example": "𑄒𑄧 (ঠা)"
+  },
+  {
+    "letter": "𑄓",
+    "pronunciation": "হাদুভাঙাৎ-ডা",
+    "meaning": "ডা",
+    "example": "𑄓𑄧 (ডা)"
+  },
+  {
+    "letter": "𑄔",
+    "pronunciation": "লেচভরা-ঢা",
+    "meaning": "ঢা",
+    "example": "𑄔𑄧 (ঢা)"
+  },
+  {
+    "letter": "𑄕",
+    "pronunciation": "পেত্তুয়া-ণা",
+    "meaning": "ণা",
+    "example": "𑄕𑄧 (ণা)"
+  },
+  {
+    "letter": "𑄖",
+    "pronunciation": "ঘোঙ'দাৎ-তা",
+    "meaning": "তা",
+    "example": "𑄖𑄧 (তা)"
+  },
+  {
+    "letter": "𑄗",
+    "pronunciation": "জগদাৎ-থা",
+    "meaning": "থা",
+    "example": "𑄗𑄧 (থা)"
+  },
+  {
+    "letter": "𑄘",
+    "pronunciation": "দুলোনি-দা",
+    "meaning": "দা",
+    "example": "𑄘𑄧 (দা)"
+  },
+  {
+    "letter": "𑄙",
+    "pronunciation": "তল্‌মুও-ধা",
+    "meaning": "ধা",
+    "example": "𑄙𑄧 (ধা)"
+  },
+  {
+    "letter": "𑄚",
+    "pronunciation": "ফারবান্যা-না",
+    "meaning": "না",
+    "example": "𑄚𑄧 (না)"
+  },
+  {
+    "letter": "𑄛",
+    "pronunciation": "ফাল্যা-পা",
+    "meaning": "পা",
+    "example": "𑄛𑄧 (পা)"
+  },
+  {
+    "letter": "𑄜",
+    "pronunciation": "উবরফুদো-ফা",
+    "meaning": "ফা",
+    "example": "𑄜𑄧 (ফা)"
+  },
+  {
+    "letter": "𑄝",
+    "pronunciation": "উবরমুও-বা",
+    "meaning": "বা",
+    "example": "𑄝𑄧 (বা)"
+  },
+  {
+    "letter": "𑄞",
+    "pronunciation": "চেরদাচ্যা-ভা",
+    "meaning": "ভা",
+    "example": "𑄞𑄧 (ভা)"
+  },
+  {
+    "letter": "𑄟",
+    "pronunciation": "বৃগোত্‌পদলা-মা",
+    "meaning": "মা",
+    "example": "𑄟𑄧 (মা)"
+  },
+  {
+    "letter": "𑄡",
+    "pronunciation": "জিল্যা-যা",
+    "meaning": "যা",
+    "example": "𑄡𑄧 (যা)"
+  },
+  {
+    "letter": "𑄢",
+    "pronunciation": "দ্বিদাচ্যা-রা",
+    "meaning": "রা",
+    "example": "𑄢𑄧 (রা)"
+  },
+  {
+    "letter": "𑄣",
+    "pronunciation": "তল্‌মুও-লা",
+    "meaning": "লা",
+    "example": "𑄣𑄧 (লা)"
+  },
+  {
+    "letter": "𑄤",
+    "pronunciation": "বাঝোন্যা-ওয়া",
+    "meaning": "ওয়া",
+    "example": "𑄤𑄧 (ওয়া)"
+  },
+  {
+    "letter": "𑄥",
+    "pronunciation": "ভুদিবুক্যা-সা",
+    "meaning": "সা",
+    "example": "𑄥𑄧 (সা)"
+  },
+  {
+    "letter": "𑄦",
+    "pronunciation": "উবরমুও-হা",
+    "meaning": "হা",
+    "example": "𑄦𑄧 (হা)"
+  },
+  {
+    "letter": "𑄠",
+    "pronunciation": "চিমোচ্যা-য়া",
+    "meaning": "য়া",
+    "example": "𑄠𑄧 (য়)"
+  },
+  {
+    "letter": "𑅄",
+    "pronunciation": "পেত্‌ফাদা-হ্লা",
+    "meaning": "হ্লা",
+    "example": "𑅄𑄧 (হ্ল)"
+  },
+  {
+    "letter": "𑄃",
+    "pronunciation": "পিচ্‌পুঝ'-আ",
+    "meaning": "আ",
+    "example": "𑄃𑄧 (আ)"
+  }
+],
+"vowels": [
+  {
+    "letter": "𑄃𑄧",
+    "meaning": "অ"
+  },
+  {
+    "letter": "𑄃",
+    "meaning": "আ"
+  },
+  {
+    "letter": "𑄃𑄨",
+    "meaning": "ই"
+  },
+  {
+    "letter": "𑄃𑄩",
+    "meaning": "ঈ"
+  },
+  {
+    "letter": "𑄃𑄪",
+    "meaning": "উ"
+  },
+  {
+    "letter": "𑄃𑄫",
+    "meaning": "ঊ"
+  },
+  {
+    "letter": "𑄃𑄬",
+    "meaning": "এ"
+  },
+  {
+    "letter": "𑄃𑄰",
+    "meaning": "ঐ"
+  },
+  {
+    "letter": "𑄃𑄮",
+    "meaning": "ও"
+  },
+  {
+    "letter": "𑄃𑄯",
+    "meaning": "ঔ"
+  },
+  {
+    "letter": "𑄃𑄧𑄁",
+    "meaning": "অং"
+  },
+  {
+    "letter": "𑄃𑄧𑄂",
+    "meaning": "অঃ"
+  },
+  {
+    "letter": "𑄃𑄧𑄀",
+    "meaning": "অঁ"
+  }
+],
+"numerals": [
+  {
+    "letter": "𑄶",
+    "meaning": "০"
+  },
+  {
+    "letter": "𑄷",
+    "meaning": "১"
+  },
+  {
+    "letter": "𑄸",
+    "meaning": "২"
+  },
+  {
+    "letter": "𑄹",
+    "meaning": "৩"
+  },
+  {
+    "letter": "𑄺",
+    "meaning": "৪"
+  },
+  {
+    "letter": "𑄻",
+    "meaning": "৫"
+  },
+  {
+    "letter": "𑄼",
+    "meaning": "৬"
+  },
+  {
+    "letter": "𑄽",
+    "meaning": "৭"
+  },
+  {
+    "letter": "𑄾",
+    "meaning": "৮"
+  },
+  {
+    "letter": "𑄿",
+    "meaning": "৯"
+  }
+]
+}
