@@ -1,0 +1,118 @@
+{
+  "title": "𑄴𑄤𑄬𑄚𑄴-𑄛𑄧𑄖𑄴",
+  "titleBengali": "মাজারা-পাত",
+  "entries": [
+    {
+      "formula": "ক + ঁ",
+      "descriptionBengali": "আ'ত্ উবরতুল্যা = অ",
+      "chakmaSymbol": "𑄇𑅄",
+      "exampleChakma": "𑄇𑄇𑄢𑄴𑄖𑄬𑄤𑄴",
+      "exampleBengali": "অদংগরল"
+    },
+    {
+      "formula": "ক + ি",
+      "descriptionBengali": "আ-বান্যা = ই",
+      "chakmaSymbol": "𑄇𑄨",
+      "exampleChakma": "𑄇𑄬𑄪𑄇𑄨",
+      "exampleBengali": "ইরেনি"
+    },
+    {
+      "formula": "ক + ী",
+      "descriptionBengali": "আ-বানীফুদো = ঈ",
+      "chakmaSymbol": "𑄇𑄨𑅅",
+      "exampleChakma": "𑄇𑄨𑅅𑄖",
+      "exampleBengali": "ঈদি"
+    },
+    {
+      "formula": "ক + ু",
+      "descriptionBengali": "আ'ত্ একটান্যা = উ",
+      "chakmaSymbol": "𑄇𑄪",
+      "exampleChakma": "𑄃𑄪𑄣𑄪-𑄉𑄪𑄣𑄪",
+      "exampleBengali": "উলু-গ্লু"
+    },
+    {
+      "formula": "ক + ূ",
+      "descriptionBengali": "আ'ত্ দ্বিটান্যা = উ",
+      "chakmaSymbol": "𑄇𑄪𑅅",
+      "exampleChakma": "𑄃𑄪𑄖𑄴𑄖𑄪𑄢𑄨𑄇𑄪",
+      "exampleBengali": "উত্তরিকু"
+    },
+    {
+      "formula": "ক + ে",
+      "descriptionBengali": "আ'ত্ এ-কার দিলে = এ/অ্যা",
+      "chakmaSymbol": "𑄉𑄬",
+      "exampleChakma": "𑄉𑄬𑄘𑄬",
+      "exampleBengali": "এদে"
+    },
+    {
+      "formula": "ক + ৈ",
+      "descriptionBengali": "আ'ত্ ঢেলভাঙ্যা = আই",
+      "chakmaSymbol": "𑄃𑄭",
+      "exampleChakma": "𑄃𑄭𑄜𑄭",
+      "exampleBengali": "আইফাই"
+    },
+    {
+      "formula": "ক + ৈ (উবরতুল্যা)",
+      "descriptionBengali": "আ'ত্ ঢেলভাঙী উবরতুল্যা = ঐ",
+      "chakmaSymbol": "𑄃𑄭",
+      "exampleChakma": "𑄃𑄭-𑄦𑄮𑄃𑄨",
+      "exampleBengali": "ঐ-হোই"
+    },
+    {
+      "formula": "ক + ো",
+      "descriptionBengali": "আ'ত্ ও-কার দিলে = ও",
+      "chakmaSymbol": "𑄃𑄮",
+      "exampleChakma": "𑄃𑄮𑄣𑄮-𑄎𑄮𑄣𑄮",
+      "exampleBengali": "ওলো-জোলো"
+    },
+    {
+      "formula": "ক + ৌ",
+      "descriptionBengali": "আ'ত্ ঔ-কার দিলে = ঔ",
+      "chakmaSymbol": "𑄃𑄯",
+      "exampleChakma": "𑄃𑄯𑄉𑄨𑄢𑄮𑄖𑄴",
+      "exampleBengali": "ঔগিরৌত"
+    },
+    {
+      "formula": "ক + য(ফলা)",
+      "descriptionBengali": "কা'ত্ য(ফলা) দিলে = ক্যা",
+      "chakmaSymbol": "𑄇𑄳𑄬𑄠",
+      "exampleChakma": "𑄣𑄬𑄇𑄴𑄠𑄬",
+      "exampleBengali": "লেক্যা"
+    },
+    {
+      "formula": "ক + র(ফলা)",
+      "descriptionBengali": "কা'ত্ রা(ফলা) দিলে = ক্রা",
+      "chakmaSymbol": "𑄇𑄴𑄢𑄣",
+      "exampleChakma": "𑄟𑄢𑄴𑄢𑄨𑄇𑄴𑄢𑄣",
+      "exampleBengali": "মাহ্‌ক্রা"
+    },
+    {
+      "formula": "ক + ওয়া(ফলা)",
+      "descriptionBengali": "কা'ত্ ওয়া(ফলা) দিলে = কোয়া",
+      "chakmaSymbol": "𑄇𑄮𑄠𑄣",
+      "exampleChakma": "𑄃𑄬𑄇𑄴𑄇𑄮𑄠𑄣",
+      "exampleBengali": "এক্কোয়া"
+    },
+    {
+      "formula": "ক + হ্‌(ফলা)",
+      "descriptionBengali": "কা'ত্ হ্‌(ফলা) দিলে = কাহ্‌",
+      "chakmaSymbol": "𑄇𑄢𑄴𑄦𑄴",
+      "exampleChakma": "𑄜𑄢𑄴𑄇𑄢𑄴𑄦𑄴",
+      "exampleBengali": "ফাক্কাহ্‌"
+    },
+    {
+      "formula": "ক + ল(ফলা)",
+      "descriptionBengali": "কা'ত্ লা(ফলা) দিলে = ক্লা",
+      "chakmaSymbol": "𑄇𑄴𑄣𑄣",
+      "exampleChakma": "𑄥𑄪𑄇𑄴𑄣𑄣/𑄃𑄇𑄴𑄣𑄣",
+      "exampleBengali": "সুক্লা/অক্লা"
+    },
+    {
+      "formula": "ক + ন(ফলা)",
+      "descriptionBengali": "কা'ত্ না(ফলা) দিলে = ক্না",
+      "chakmaSymbol": "𑄇𑄴𑄚𑄣",
+      "exampleChakma": "𑄦𑄮𑄇𑄴𑄚𑄣",
+      "exampleBengali": "হোক্না"
+    }
+  ]
+}
