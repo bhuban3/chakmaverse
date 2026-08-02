@@ -382,21 +382,7 @@ class TransliterationService {
             }
           }
           if (eq) {
-            final chakmaSource = entry.key;
             final defaultValue = entry.value;
-
-            // Collision ambiguity (e.g. স/শ/ষ or র/ড়)
-            final options = _chakmaAmbiguities[chakmaSource];
-            if (options != null) {
-              segments.add(AmbiguousSegment(
-                startIndex: outRuneIndex,
-                length: defaultValue.runes.length,
-                chakmaSource: chakmaSource,
-                options: options,
-                current: defaultValue,
-              ));
-            }
-
             outBuffer.write(defaultValue);
             outRuneIndex += defaultValue.runes.length;
             i += keyRunes.length;
