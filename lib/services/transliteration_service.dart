@@ -153,32 +153,30 @@ class TransliterationService {
   // the default, and (2) display order. Anything not listed here still
   // gets detected and shown — just with Dart's natural set order.
   static const Map<String, List<String>> _preferredOrder = {
+    '𑄥𑄧': ['স', 'শ', 'ষ'],
+    '𑄥': ['সা', 'শা', 'ষা'],
+    '𑄥𑄨': ['সি', 'শি', 'ষি'],
+    '𑄥𑄩': ['সী', 'শী', 'ষী'],
+    '𑄥𑄪': ['সু', 'শু', 'ষু'],
+    '𑄥𑄫': ['সূ', 'শূ', 'ষূ'],
+    '𑄥𑄬': ['সে', 'শে', 'ষে'],
+    '𑄥𑄰': ['সৈ', 'শৈ', 'ষৈ'],
+    '𑄥𑄮': ['সো', 'শো', 'ষো'],
+    '𑄥𑄯': ['সৌ', 'শৌ', 'ষৌ'],
+    '𑄥𑄧𑄁': ['সং', 'শং', 'ষং'],
+    '𑄥𑄧𑄂': ['সঃ', 'শঃ', 'ষঃ'],
+    '𑄥𑄧𑄀': ['সঁ', 'শঁ', 'ষঁ'],
+    '𑄥𑄴': ['স্', 'শ্', 'ষ্'],
 
-    'স': ['স', 'শ', 'ষ'],
-    'সা': ['সা', 'শা', 'ষা'],
-    'সি': ['সি', 'শি', 'ষি'],
-    'সী': ['সী', 'শী', 'ষী'],
-    'সু': ['সু', 'শু', 'ষু'],
-    'সূ': ['সূ', 'শূ', 'ষূ'],
-    'সে': ['সে', 'শে', 'ষে'],
-    'সৈ': ['সৈ', 'শৈ', 'ষৈ'],
-    'সো': ['সো', 'শো', 'ষো'],
-    'সৌ': ['সৌ', 'শৌ', 'ষৌ'],
-    'সং': ['সং', 'শং', 'ষং'],
-    'সঃ': ['সঃ', 'শঃ', 'ষঃ'],
-    'সঁ': ['সঁ', 'শঁ', 'ষঁ'],
-    'স্': ['স্', 'শ্', 'ষ্'],
-
-    'র': ['র', 'ড়'],
-    'রা': ['রা', 'ড়া'],
-    'রি': ['রি', 'ঋ', 'ড়ি', 'ঢ়ি'],
-    'রী': ['রী', 'ড়ী', 'ঢ়ী'],
-    'রু': ['রু', 'ড়ু', 'ঢ়ু'],
-    'রূ': ['রূ', 'ড়ূ', 'ড়ূ'],
-    'রে': ['রে', 'ড়ে', 'ঢ়ে'],
-    'রো': ['রো', 'ড়ো', 'ঢ়ো'],
-    'র্‌': ['র্‌', 'ড়্', 'ঢ়্‌'],
-
+    '𑄢𑄧': ['র', 'ড়', 'ঢ়'],
+    '𑄢': ['রা', 'ড়া', 'ঢ়া'],
+    '𑄢𑄨': ['রি', 'ঋ', 'ড়ি', 'ঢ়ি'],
+    '𑄢𑄩': ['রী', 'ড়ী', 'ঢ়ী'],
+    '𑄢𑄪': ['রু', 'ড়ু', 'ঢ়ু'],
+    '𑄢𑄫': ['রূ', 'ড়ূ', 'ড়ূ'],
+    '𑄢𑄬': ['রে', 'ড়ে', 'ঢ়ে'],
+    '𑄢𑄮': ['রো', 'ড়ো', 'ঢ়ো'],
+    '𑄢𑄴': ['র্', 'ড়্', 'ঢ়্'],
   };
 
   Future<void> initialize() async {
@@ -386,8 +384,20 @@ class TransliterationService {
           if (eq) {
             final chakmaSource = entry.key;
             final defaultValue = entry.value;
-            outBuffer.write(defaultValue);
 
+            // Collision ambiguity (e.g. স/শ/ষ or র/ড়)
+            final options = _chakmaAmbiguities[chakmaSource];
+            if (options != null) {
+              segments.add(AmbiguousSegment(
+                startIndex: outRuneIndex,
+                length: defaultValue.runes.length,
+                chakmaSource: chakmaSource,
+                options: options,
+                current: defaultValue,
+              ));
+            }
+
+            outBuffer.write(defaultValue);
             outRuneIndex += defaultValue.runes.length;
             i += keyRunes.length;
             matched = true;
